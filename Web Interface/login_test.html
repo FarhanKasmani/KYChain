@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <!--  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+ -->
+ <meta http-equiv="Content-Language" content="hi">
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <title>Login</title>
+</head>
+<style type="text/css">
+  .tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: #3299bb;
+  float: left;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  width: 297px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #5ab9ea;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #5ab9ea;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ddd;
+  border-top: none;
+}
+
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #3299bb;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 1
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #3299bb;
+  text-align: center;
+}
+
+  .navbar {
+  overflow: hidden;
+  background-color: #3299bb;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: right;
+  overflow: hidden;
+  color: white;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+/*.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #5ab9ea;
+}*/
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #3299bb;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #5ab9ea ;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+</style>
+
+
+
+<body onload="openCity(event, 'London')">
+
+<div class="navbar">
+  <a href="#">KYChain</a>
+    <div class="dropdown" style="float: right;">
+    <button id='language' class="dropbtn" style="margin-right: 75px">Language 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#googtrans(en|en)" data-lang="en" class="lang-es lang-select">English</a>
+      <a href="#googtrans(en|hi)" data-lang="hi" class="lang-es lang-select">हिंदी(Hindi)</a>
+      <a href="#googtrans(en|mr)" data-lang="mr" class="lang-es lang-select">मराठी(Marathi)</a>
+      <a href="#googtrans(en|bn)" data-lang="bn" class="lang-es lang-select">বাংলা(Bangla)</a>
+      <a href="#googtrans(en|kn)" data-lang="kn" class="lang-es lang-select">ಕನ್ನಡ(Kannad)</a>
+      <a href="#googtrans(en|ml)" data-lang="ml" class="lang-es lang-select">മല്യാലം(Malyalam)</a>
+      <a href="#googtrans(en|te)" data-lang="te" class="lang-es lang-select">തെലുങ്ക്(Telugu)</a>
+      <a href="#googtrans(en|ta)" data-lang="ta" class="lang-es lang-select">தமிழ்(Tamil)</a>
+      <a href="#googtrans(en|gu)" data-lang="gu" class="lang-es lang-select">ગુજરાતી(Gujarati)</a>
+      <a href="#googtrans(en|pa)" data-lang="pa" class="lang-es lang-select">ਪੰਜਾਬੀ(Punjabi)</a>
+      <a href="#googtrans(en|sd)" data-lang="sd" class="lang-es lang-select">سنڌي(Sindhi)</a>
+      <a href="#googtrans(en|ur)" data-lang="ur" class="lang-es lang-select">اردو(Urdu)</a>
+    </div>
+  </div>
+  <a id='logincomp' href="logincomp.html" style="float: right;">Company Login</a>
+
+  
+</div>
+
+
+  <br>
+  <br>
+<div style="margin-left: 400px;">
+<div class="card" style="width: 600px;">
+<div class="tab">
+  <button class="tablinks" id="b1" onclick="openCity(event, 'London')" style="float: left;">Sign Up </button>
+  <button class="tablinks" id="b2" onclick="openCity(event, 'Paris')" style="float: right;">Login</button>
+</div>
+
+<div id="London" class="tabcontent">
+    <div class="container">
+    <h1 id="hr">Register</h1>
+    <p id="pa">Please fill in this form to create an account.</p>
+    <hr>
+
+    <label for="email" id="eml">Email/Phone</label>
+    <input type="text" id="email" placeholder="Enter Email/Phone Number" required>
+
+    <label for="psw" id="pass" class="pass">Password</label>
+    <input type="password" class="password" id="psw" placeholder="Enter Password" required>
+
+    <label for="psw-repeat" id="rpsw">Repeat Password</label>
+    <input type="password" placeholder="Repeat Password" id="psw-repeat" required>
+    <hr>
+    <button type="submit" class="registerbtn" id="submits" onclick="signup()">Sign Up</button>
+      </div>
+
+  
+</div>
+
+<div id="Paris" class="tabcontent">
+  <label for="email" id="leml" >Email</label>
+    <input type="text" placeholder="Enter Email" id="lemail" class="email" required>
+
+      <label for="psw" class="pass" id="lpass">Password</label>
+      <input type="password" placeholder="Enter Password" id="lpsw" class="password" required>
+      <button type="submit" class="registerbtn" id="submitl" onclick="login()">Login</button>
+    </div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT}, 'google_translate_element');
+  }
+
+function triggerHtmlEvent(element, eventName) {
+  var event;
+  if (document.createEvent) {
+  event = document.createEvent('HTMLEvents');
+  event.initEvent(eventName, true, true);
+  element.dispatchEvent(event);
+  } else {
+  event = document.createEventObject();
+  event.eventType = eventName;
+  element.fireEvent('on' + event.eventType, event);
+  }
+}
+
+$('.lang-select').click(function() {
+  var theLang = $(this).attr('data-lang');
+  
+  //alert($(this).attr('href'));
+  window.location = $(this).attr('href');
+  location.reload();
+
+});
+</script>
+
+
+<script type="text/javascript" src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+</script>
+
+
+
+<script type="text/javascript">
+
+
+  function openCity(evt, cityName) {
+  // Declare all variables
+  sessionStorage.clear();
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+<script>
+ function signup(){
+    var pas=document.getElementById("psw").value;
+    var rpas=document.getElementById("psw-repeat").value;
+    var user=document.getElementById("email").value;
+    console.log("hello")
+    
+          $.ajax({
+      type: "POST",
+      dataType:'json',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      url: "http://172.16.1.181:8000/api/auth/register/",
+      data: JSON.stringify({ email:user,
+        password:pas,
+        password2:rpas
+      })
+      }).done(function(msg) {
+        console.log(msg)
+        if (msg.token){    
+
+        sessionStorage.setItem("email", user);
+        sessionStorage.setItem("password",pas);
+         window.location="docs.html";
+      }
+      else{
+        alert("Passwords don't match")
+      document.getElementById('psw').value="";
+      document.getElementById('psw-repeat').value="";
+      }
+    });
+      document.getElementById('email').value = '';
+      document.getElementById('psw').value = '';
+      document.getElementById('psw-repeat').value = '';
+  }
+  function checkkyc(user,pas){
+    console.log(user)
+            $.ajax({
+      type: "POST",
+      cors:true,
+      dataType:'json',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      crossDomain:true,
+      url: "http://172.16.1.181:8000/api/webAadhar/kycStatus/",
+      data: JSON.stringify({ 
+        email:user,
+        password:pas,
+      })
+      }).done(function(msg) {
+       console.log(msg.status)
+       if(!msg.status){
+        window.location="docs.html";
+       }
+       else{
+        var uid=msg.uid
+        sessionStorage.setItem("uid",uid);
+        sessionStorage.setItem("doctype",Object.keys(msg.data)[0]);
+        sessionStorage.setItem("value",msg.data[Object.keys(msg.data)[0]])
+        window.location="dashboard.html";
+       }
+        });
+          }
+function login(){
+    var pas=document.getElementById("lpsw").value;
+    var user=document.getElementById("lemail").value;
+  
+    console.log("Hi")
+  
+          $.ajax({
+      type: "POST",
+      cors:true,
+      dataType:'json',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      crossDomain:true,
+      url: "http://172.16.1.181:8000/api/auth/login/",
+      data: JSON.stringify({ email:user,
+        password:pas
+      }),
+      }).done(function(msg) {
+        console.log(msg) 
+  if (msg.token){
+        sessionStorage.setItem("email", user);
+        sessionStorage.setItem("password",pas);
+        checkkyc(user,pas);
+   }
+        else{
+         alert("incorrect credentials")
+        }
+        });
+
+      document.getElementById('lemail').value = '';
+      document.getElementById('lpsw').value = '';
+
+}
+
+</script>
+
+<!-- <?php
+
+/*$url='http://192.168.43.19:8000/api/auth/login/';
+$ra=$_POST['foo'];
+echo($_POST['foo']);
+echo($ra);
+
+$ch = curl_init();
+$arr1=array(
+    'email' => 'harshita@gmail.com',
+    'password' => 'harshita123'
+);
+if
+curl_setopt($ch, CURLOPT_URL, $url);
+ curl_setopt($ch, CURLOPT_HTTPHEADER, array( 'Content-Type: application/json'));
+
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+
+$arr2 = json_encode($arr1);
+curl_setopt($ch,CURLOPT_POST, true);
+
+curl_setopt($ch, CURLOPT_POSTFIELDS, $arr2);
+
+
+$data = curl_exec($ch);
+//echo $data;
+// get info about the request
+$info = curl_getinfo($ch);
+
+// close curl resource to free up system resources 
+curl_close($ch);
+
+?> -->
+
+<!-- url: "http://192.168.43.1:8000/api/auth/login/",
+      data: JSON.stringify({ email:user,
+        password:pas
+      }),
+ -->      
+*/
+
+</body>
+</html>

@@ -1,0 +1,633 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:1:1-60:12
+INJECTED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:1:1-60:12
+INJECTED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:1:1-60:12
+INJECTED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:1:1-60:12
+MERGED from [:react-native-camera] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-camera/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-18:12
+MERGED from [com.android.support:exifinterface:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/exifinterface-28.0.0.aar/03ca1f9d4f1de0cc4171113ee590e742/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-vision:12.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-vision-12.0.1.aar/41708ff402a0e83d312368c5feb6eab6/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-vector-icons] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-image-picker] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-23:12
+MERGED from [:react-native-navigation] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-navigation/lib/android/app/build/intermediates/merged_manifests/reactNative57_5Debug/processReactNative57_5DebugManifest/merged/AndroidManifest.xml:2:1-17:12
+MERGED from [com.github.wix-playground:ahbottomnavigation:2.4.8] /home/farhan/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.4.8.aar/0bbb0e1a7a8e118a5c6ded655d456ac3/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:design:27.1.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/40bdde95f94d2982cfd91c87b975ebc6/AndroidManifest.xml:17:1-22:12
+MERGED from [:react-native-firebase] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-firebase/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:2:1-15:12
+MERGED from [com.facebook.react:react-native:0.58.5] /home/farhan/.gradle/caches/transforms-1/files-1.1/react-native-0.58.5.aar/feae2714b8c27d85aaaba472c2a195be/AndroidManifest.xml:2:1-15:12
+MERGED from [com.github.wix-playground:reflow-animator:1.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/reflow-animator-1.0.4.aar/ca330175fc8d868e8f44dbce51afaa09/AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/59eb0e05fbd4b704fc0a8fbe8de608ee/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-vision-common:12.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-12.0.1.aar/64fa8f973135700393eb6c51eca91694/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/d22a06610f1bab6bdd3e57d04275c858/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-core:16.0.6] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.6.aar/2b14ffee5257cc6329feeb8e03a2d71f/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/b62777f7ee1450173871d7ccd874f349/AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/4dc3576df65435147da472835cc9bedd/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.4.aar/70e1537edc66d76a25c9fbcdc96f2a55/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/c6a9c5cf6cc86369190b8308c13e0e0e/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/78936079e9c9087314794db81c4a56ca/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/940d2bf8a198065553c0ede92ad08442/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/0e48665db242b9271a1d5eb4a4fc49cf/AndroidManifest.xml:17:1-29:12
+MERGED from [com.android.support:recyclerview-v7:27.1.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/4ac62781199d9baec40c9a2c2f4577a6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/20ac44de692708f7e427c5b68c127deb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/1ac5e94d38207386cba41b7a2d99dc22/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/aa18c6a08d371e16ca83affa7fb12f86/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/a97d1d6b0394e1f2dbeb969734e949d0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.5.aar/fd989b8cb0336bfe601c5427e1126c68/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/7bc77f55b4460145188411c106d4a929/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/f0d1d3dd355d1a479b652a61487d7267/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/e55be3505cd0e594e3a9fbbf48064955/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/8fc0c146decd24167e014740680b42e4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/771f4fa148aa36c86410abb3348300fe/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/2174867fed57afa9c0bfe61dece444f9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/187d865e2cc7fb87ddf0b72ed7788e4d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/a215b85f64a8c1d12c59dc12935c7cba/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/c3116a2a5ec4cffbaa37b18f1000b0a3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/a7accf413b745ac9b4f3d873421f80ec/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/9c8bc133746e7f53a132bbcdf5518e16/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/c03508c293eb7bcc0ac1eedac9bd3d38/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/385ffb52c24bfadf68e75151dd1c9c96/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/f21e2fad8b584d2425f7b44c9e8c55d0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/88c60edf38b0833fb572c655e8eb8924/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/2bc0b49d63f6fbc9f61d99efdfb12ba2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/29ba6d8a6662f8a15e9a384588c2791e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/3f6e5033145504e5b81249b40e517f6b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/32d909e1539d75f6766e059ba55eedc2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b6d240f215439f091f42c0e870b331ad/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/a783cfac126efcd75bc1543eb7d54aab/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/6d15148b9ca8b19a1dc688a76d6487ad/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/012fb5508cc4d789d24159096fdf99fa/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/bf4a526dbb6a70edfd2beab1fc36e50d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/5bc1f428ecc68cf4792d51df61adb99f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/a3af2a5b3803ddb824e1e4b2ad7fa3b5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/b4461f23305e662beb5af598a0140c4f/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/04f61a3f08818832aebd75ec92043dd8/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/2f41b936e3b14fccae23dc7c69aa57f8/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/22b377321a6e44bfc15d000a41c6347d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-vision-license:12.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-vision-license-12.0.1.aar/877bc151cd2175478d841729083c8176/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:multidex:1.0.2] /home/farhan/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/716e346d6f9ae61e149c17901b81ee11/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fresco:1.10.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/d2678157480b4eafca3a4631909cbb4e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/1c186ccb4e1d13bdeac169385a99d692/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.10.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/6c4587eb4ae1c977fc4e4b0a200b46fa/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/ad10c31d21616cc82310089b86f80f4e/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/539d4d555ff0fac7f46417a93a1d9035/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/812a70cfca0232b4abaf904814e2d291/AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r174650] /home/farhan/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/c6e3f840f7991cd09effedadb9be801f/AndroidManifest.xml:1:1-3:12
+MERGED from [com.github.clans:fab:1.6.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/fab-1.6.4.aar/e307c0de69c1c77e8fab96c886d88ed4/AndroidManifest.xml:2:1-14:12
+MERGED from [com.google.android.gms:play-services-vision-common-license:12.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-license-12.0.1.aar/7886d88953604cd47b0357933f399eab/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/8f3bb2f9a8cf9ed4ecd48f3a9899a7d2/AndroidManifest.xml:2:1-9:12
+INJECTED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:1:1-60:12
+INJECTED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:1:1-60:12
+INJECTED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:1:1-60:12
+	package
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:2:3-22
+		INJECTED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:1:1-60:12
+		INJECTED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:1:1-60:12
+		INJECTED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [:react-native-firebase] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-firebase/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-67
+MERGED from [:react-native-firebase] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-firebase/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/b62777f7ee1450173871d7ccd874f349/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/b62777f7ee1450173871d7ccd874f349/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/4dc3576df65435147da472835cc9bedd/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/4dc3576df65435147da472835cc9bedd/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/c6a9c5cf6cc86369190b8308c13e0e0e/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/c6a9c5cf6cc86369190b8308c13e0e0e/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/78936079e9c9087314794db81c4a56ca/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/78936079e9c9087314794db81c4a56ca/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-native:0.58.5] /home/farhan/.gradle/caches/transforms-1/files-1.1/react-native-0.58.5.aar/feae2714b8c27d85aaaba472c2a195be/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.58.5] /home/farhan/.gradle/caches/transforms-1/files-1.1/react-native-0.58.5.aar/feae2714b8c27d85aaaba472c2a195be/AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:5:22-75
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:6:5-70
+	android:name
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:6:22-68
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:8:22-78
+uses-permission#android.permission.CAMERA
+ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:9:5-65
+MERGED from [:react-native-camera] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-camera/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:9:5-65
+MERGED from [:react-native-camera] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-camera/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:9:5-65
+	android:name
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:9:22-62
+application
+ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:10:5-58:19
+MERGED from [com.google.android.gms:play-services-vision:12.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-vision-12.0.1.aar/41708ff402a0e83d312368c5feb6eab6/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:12.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-vision-12.0.1.aar/41708ff402a0e83d312368c5feb6eab6/AndroidManifest.xml:7:5-20
+MERGED from [:react-native-image-picker] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-image-picker] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-navigation] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-navigation/lib/android/app/build/intermediates/merged_manifests/reactNative57_5Debug/processReactNative57_5DebugManifest/merged/AndroidManifest.xml:11:5-15:19
+MERGED from [:react-native-navigation] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-navigation/lib/android/app/build/intermediates/merged_manifests/reactNative57_5Debug/processReactNative57_5DebugManifest/merged/AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.wix-playground:ahbottomnavigation:2.4.8] /home/farhan/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.4.8.aar/0bbb0e1a7a8e118a5c6ded655d456ac3/AndroidManifest.xml:11:5-20
+MERGED from [com.github.wix-playground:ahbottomnavigation:2.4.8] /home/farhan/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.4.8.aar/0bbb0e1a7a8e118a5c6ded655d456ac3/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.58.5] /home/farhan/.gradle/caches/transforms-1/files-1.1/react-native-0.58.5.aar/feae2714b8c27d85aaaba472c2a195be/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.58.5] /home/farhan/.gradle/caches/transforms-1/files-1.1/react-native-0.58.5.aar/feae2714b8c27d85aaaba472c2a195be/AndroidManifest.xml:13:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:12.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-12.0.1.aar/64fa8f973135700393eb6c51eca91694/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:12.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-12.0.1.aar/64fa8f973135700393eb6c51eca91694/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/d22a06610f1bab6bdd3e57d04275c858/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/d22a06610f1bab6bdd3e57d04275c858/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-core:16.0.6] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.6.aar/2b14ffee5257cc6329feeb8e03a2d71f/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.6] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.6.aar/2b14ffee5257cc6329feeb8e03a2d71f/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/b62777f7ee1450173871d7ccd874f349/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/b62777f7ee1450173871d7ccd874f349/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/4dc3576df65435147da472835cc9bedd/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/4dc3576df65435147da472835cc9bedd/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.4.aar/70e1537edc66d76a25c9fbcdc96f2a55/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.4.aar/70e1537edc66d76a25c9fbcdc96f2a55/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/c6a9c5cf6cc86369190b8308c13e0e0e/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/c6a9c5cf6cc86369190b8308c13e0e0e/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/78936079e9c9087314794db81c4a56ca/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/78936079e9c9087314794db81c4a56ca/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/940d2bf8a198065553c0ede92ad08442/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/940d2bf8a198065553c0ede92ad08442/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/0e48665db242b9271a1d5eb4a4fc49cf/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/0e48665db242b9271a1d5eb4a4fc49cf/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/1ac5e94d38207386cba41b7a2d99dc22/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/1ac5e94d38207386cba41b7a2d99dc22/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/aa18c6a08d371e16ca83affa7fb12f86/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/aa18c6a08d371e16ca83affa7fb12f86/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/a97d1d6b0394e1f2dbeb969734e949d0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/a97d1d6b0394e1f2dbeb969734e949d0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.5.aar/fd989b8cb0336bfe601c5427e1126c68/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.5.aar/fd989b8cb0336bfe601c5427e1126c68/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/7bc77f55b4460145188411c106d4a929/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/7bc77f55b4460145188411c106d4a929/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/f0d1d3dd355d1a479b652a61487d7267/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/f0d1d3dd355d1a479b652a61487d7267/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/e55be3505cd0e594e3a9fbbf48064955/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/e55be3505cd0e594e3a9fbbf48064955/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/32d909e1539d75f6766e059ba55eedc2/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/32d909e1539d75f6766e059ba55eedc2/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b6d240f215439f091f42c0e870b331ad/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b6d240f215439f091f42c0e870b331ad/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-vision-license:12.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-vision-license-12.0.1.aar/877bc151cd2175478d841729083c8176/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-vision-license:12.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-vision-license-12.0.1.aar/877bc151cd2175478d841729083c8176/AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/812a70cfca0232b4abaf904814e2d291/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/812a70cfca0232b4abaf904814e2d291/AndroidManifest.xml:11:5-20
+MERGED from [org.webkit:android-jsc:r174650] /home/farhan/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/c6e3f840f7991cd09effedadb9be801f/AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] /home/farhan/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/c6e3f840f7991cd09effedadb9be801f/AndroidManifest.xml:2:3-17
+MERGED from [com.github.clans:fab:1.6.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/fab-1.6.4.aar/e307c0de69c1c77e8fab96c886d88ed4/AndroidManifest.xml:12:5-20
+MERGED from [com.github.clans:fab:1.6.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/fab-1.6.4.aar/e307c0de69c1c77e8fab96c886d88ed4/AndroidManifest.xml:12:5-20
+MERGED from [com.google.android.gms:play-services-vision-common-license:12.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-license-12.0.1.aar/7886d88953604cd47b0357933f399eab/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-vision-common-license:12.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-license-12.0.1.aar/7886d88953604cd47b0357933f399eab/AndroidManifest.xml:22:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/32d909e1539d75f6766e059ba55eedc2/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:12:7-39
+	android:roundIcon
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:14:7-52
+	android:icon
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:13:7-41
+	android:allowBackup
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:15:7-34
+	android:theme
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:16:7-38
+	android:name
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:11:7-38
+activity#com.myapp.MainActivity
+ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:17:7-26:18
+	android:label
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:19:9-41
+	android:windowSoftInputMode
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:21:9-51
+	android:configChanges
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:20:9-79
+	android:name
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:18:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:22:9-25:25
+action#android.intent.action.MAIN
+ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:23:13-65
+	android:name
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:23:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:24:13-73
+	android:name
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:24:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:27:7-84
+MERGED from [:react-native-navigation] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-navigation/lib/android/app/build/intermediates/merged_manifests/reactNative57_5Debug/processReactNative57_5DebugManifest/merged/AndroidManifest.xml:12:9-14:40
+MERGED from [:react-native-navigation] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-navigation/lib/android/app/build/intermediates/merged_manifests/reactNative57_5Debug/processReactNative57_5DebugManifest/merged/AndroidManifest.xml:12:9-14:40
+	android:exported
+		ADDED from [:react-native-navigation] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-navigation/lib/android/app/build/intermediates/merged_manifests/reactNative57_5Debug/processReactNative57_5DebugManifest/merged/AndroidManifest.xml:14:13-37
+	android:name
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:27:17-81
+service#io.invertase.firebase.messaging.RNFirebaseMessagingService
+ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:28:7-32:17
+	android:name
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:28:16-89
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:29:9-31:25
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:30:11-72
+	android:name
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:30:19-69
+service#io.invertase.firebase.messaging.RNFirebaseBackgroundMessagingService
+ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:33:7-102
+	android:name
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:33:16-99
+meta-data#com.google.firebase.messaging.default_notification_icon
+ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:35:7-37:50
+	android:resource
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:37:7-47
+	android:name
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:36:7-77
+meta-data#com.google.firebase.messaging.default_notification_color
+ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:40:7-42:55
+	android:resource
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:42:9-52
+	android:name
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:41:9-80
+meta-data#com.google.firebase.messaging.default_notification_channel_id
+ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:45:7-47:66
+	android:value
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:47:9-64
+	android:name
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:46:9-85
+receiver#io.invertase.firebase.notifications.RNFirebaseNotificationReceiver
+ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:49:9-102
+	android:name
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:49:19-100
+receiver#io.invertase.firebase.notifications.RNFirebaseNotificationsRebootReceiver
+ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:50:7-57:18
+	android:enabled
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:50:17-39
+	android:exported
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:50:40-63
+	android:name
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:50:65-153
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON+category:name:android.intent.category.DEFAULT
+ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:51:9-56:25
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:52:11-72
+	android:name
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:52:19-70
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:53:11-75
+	android:name
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:53:19-73
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:54:11-75
+	android:name
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:54:19-73
+category#android.intent.category.DEFAULT
+ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:55:11-70
+	android:name
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:55:21-67
+uses-sdk
+INJECTED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-camera] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-camera/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-camera] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-camera/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:exifinterface:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/exifinterface-28.0.0.aar/03ca1f9d4f1de0cc4171113ee590e742/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/exifinterface-28.0.0.aar/03ca1f9d4f1de0cc4171113ee590e742/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision:12.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-vision-12.0.1.aar/41708ff402a0e83d312368c5feb6eab6/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:12.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-vision-12.0.1.aar/41708ff402a0e83d312368c5feb6eab6/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-vector-icons] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-picker] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-picker] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-navigation] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-navigation/lib/android/app/build/intermediates/merged_manifests/reactNative57_5Debug/processReactNative57_5DebugManifest/merged/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-navigation] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-navigation/lib/android/app/build/intermediates/merged_manifests/reactNative57_5Debug/processReactNative57_5DebugManifest/merged/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.wix-playground:ahbottomnavigation:2.4.8] /home/farhan/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.4.8.aar/0bbb0e1a7a8e118a5c6ded655d456ac3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.wix-playground:ahbottomnavigation:2.4.8] /home/farhan/.gradle/caches/transforms-1/files-1.1/ahbottomnavigation-2.4.8.aar/0bbb0e1a7a8e118a5c6ded655d456ac3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:27.1.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/40bdde95f94d2982cfd91c87b975ebc6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/40bdde95f94d2982cfd91c87b975ebc6/AndroidManifest.xml:20:5-44
+MERGED from [:react-native-firebase] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-firebase/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-firebase] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-firebase/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.58.5] /home/farhan/.gradle/caches/transforms-1/files-1.1/react-native-0.58.5.aar/feae2714b8c27d85aaaba472c2a195be/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.58.5] /home/farhan/.gradle/caches/transforms-1/files-1.1/react-native-0.58.5.aar/feae2714b8c27d85aaaba472c2a195be/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.wix-playground:reflow-animator:1.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/reflow-animator-1.0.4.aar/ca330175fc8d868e8f44dbce51afaa09/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.wix-playground:reflow-animator:1.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/reflow-animator-1.0.4.aar/ca330175fc8d868e8f44dbce51afaa09/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/59eb0e05fbd4b704fc0a8fbe8de608ee/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/59eb0e05fbd4b704fc0a8fbe8de608ee/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:12.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-12.0.1.aar/64fa8f973135700393eb6c51eca91694/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:12.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-12.0.1.aar/64fa8f973135700393eb6c51eca91694/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/d22a06610f1bab6bdd3e57d04275c858/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/d22a06610f1bab6bdd3e57d04275c858/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.6] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.6.aar/2b14ffee5257cc6329feeb8e03a2d71f/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.6] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.6.aar/2b14ffee5257cc6329feeb8e03a2d71f/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/b62777f7ee1450173871d7ccd874f349/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/b62777f7ee1450173871d7ccd874f349/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/4dc3576df65435147da472835cc9bedd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/4dc3576df65435147da472835cc9bedd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.4.aar/70e1537edc66d76a25c9fbcdc96f2a55/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-16.0.4.aar/70e1537edc66d76a25c9fbcdc96f2a55/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/c6a9c5cf6cc86369190b8308c13e0e0e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/c6a9c5cf6cc86369190b8308c13e0e0e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/78936079e9c9087314794db81c4a56ca/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/78936079e9c9087314794db81c4a56ca/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/940d2bf8a198065553c0ede92ad08442/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.1.aar/940d2bf8a198065553c0ede92ad08442/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/0e48665db242b9271a1d5eb4a4fc49cf/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/0e48665db242b9271a1d5eb4a4fc49cf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/4ac62781199d9baec40c9a2c2f4577a6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/4ac62781199d9baec40c9a2c2f4577a6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/20ac44de692708f7e427c5b68c127deb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/20ac44de692708f7e427c5b68c127deb/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/1ac5e94d38207386cba41b7a2d99dc22/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/1ac5e94d38207386cba41b7a2d99dc22/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/aa18c6a08d371e16ca83affa7fb12f86/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/aa18c6a08d371e16ca83affa7fb12f86/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/a97d1d6b0394e1f2dbeb969734e949d0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-17.0.1.aar/a97d1d6b0394e1f2dbeb969734e949d0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.5.aar/fd989b8cb0336bfe601c5427e1126c68/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.5] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.5.aar/fd989b8cb0336bfe601c5427e1126c68/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/7bc77f55b4460145188411c106d4a929/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-stats-16.0.1.aar/7bc77f55b4460145188411c106d4a929/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/f0d1d3dd355d1a479b652a61487d7267/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-16.0.0.aar/f0d1d3dd355d1a479b652a61487d7267/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/e55be3505cd0e594e3a9fbbf48064955/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/e55be3505cd0e594e3a9fbbf48064955/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/8fc0c146decd24167e014740680b42e4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/8fc0c146decd24167e014740680b42e4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/771f4fa148aa36c86410abb3348300fe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/771f4fa148aa36c86410abb3348300fe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/2174867fed57afa9c0bfe61dece444f9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/2174867fed57afa9c0bfe61dece444f9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/187d865e2cc7fb87ddf0b72ed7788e4d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/187d865e2cc7fb87ddf0b72ed7788e4d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/a215b85f64a8c1d12c59dc12935c7cba/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/a215b85f64a8c1d12c59dc12935c7cba/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/c3116a2a5ec4cffbaa37b18f1000b0a3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/c3116a2a5ec4cffbaa37b18f1000b0a3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/a7accf413b745ac9b4f3d873421f80ec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/a7accf413b745ac9b4f3d873421f80ec/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/9c8bc133746e7f53a132bbcdf5518e16/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/9c8bc133746e7f53a132bbcdf5518e16/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/c03508c293eb7bcc0ac1eedac9bd3d38/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/c03508c293eb7bcc0ac1eedac9bd3d38/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/385ffb52c24bfadf68e75151dd1c9c96/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/385ffb52c24bfadf68e75151dd1c9c96/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/f21e2fad8b584d2425f7b44c9e8c55d0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/f21e2fad8b584d2425f7b44c9e8c55d0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/88c60edf38b0833fb572c655e8eb8924/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/88c60edf38b0833fb572c655e8eb8924/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/2bc0b49d63f6fbc9f61d99efdfb12ba2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/2bc0b49d63f6fbc9f61d99efdfb12ba2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/29ba6d8a6662f8a15e9a384588c2791e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/29ba6d8a6662f8a15e9a384588c2791e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/3f6e5033145504e5b81249b40e517f6b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/3f6e5033145504e5b81249b40e517f6b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/32d909e1539d75f6766e059ba55eedc2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/32d909e1539d75f6766e059ba55eedc2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b6d240f215439f091f42c0e870b331ad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/b6d240f215439f091f42c0e870b331ad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/a783cfac126efcd75bc1543eb7d54aab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/a783cfac126efcd75bc1543eb7d54aab/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/6d15148b9ca8b19a1dc688a76d6487ad/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/6d15148b9ca8b19a1dc688a76d6487ad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/012fb5508cc4d789d24159096fdf99fa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/012fb5508cc4d789d24159096fdf99fa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/bf4a526dbb6a70edfd2beab1fc36e50d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/bf4a526dbb6a70edfd2beab1fc36e50d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/5bc1f428ecc68cf4792d51df61adb99f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/5bc1f428ecc68cf4792d51df61adb99f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/a3af2a5b3803ddb824e1e4b2ad7fa3b5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/a3af2a5b3803ddb824e1e4b2ad7fa3b5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/b4461f23305e662beb5af598a0140c4f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/b4461f23305e662beb5af598a0140c4f/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/04f61a3f08818832aebd75ec92043dd8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/04f61a3f08818832aebd75ec92043dd8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/2f41b936e3b14fccae23dc7c69aa57f8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/2f41b936e3b14fccae23dc7c69aa57f8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/22b377321a6e44bfc15d000a41c6347d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/22b377321a6e44bfc15d000a41c6347d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision-license:12.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-vision-license-12.0.1.aar/877bc151cd2175478d841729083c8176/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision-license:12.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-vision-license-12.0.1.aar/877bc151cd2175478d841729083c8176/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:multidex:1.0.2] /home/farhan/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/716e346d6f9ae61e149c17901b81ee11/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /home/farhan/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/716e346d6f9ae61e149c17901b81ee11/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fresco:fresco:1.10.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/d2678157480b4eafca3a4631909cbb4e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/fresco-1.10.0.aar/d2678157480b4eafca3a4631909cbb4e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/1c186ccb4e1d13bdeac169385a99d692/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.10.0.aar/1c186ccb4e1d13bdeac169385a99d692/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/6c4587eb4ae1c977fc4e4b0a200b46fa/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/drawee-1.10.0.aar/6c4587eb4ae1c977fc4e4b0a200b46fa/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/ad10c31d21616cc82310089b86f80f4e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.10.0.aar/ad10c31d21616cc82310089b86f80f4e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/539d4d555ff0fac7f46417a93a1d9035/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.10.0.aar/539d4d555ff0fac7f46417a93a1d9035/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/812a70cfca0232b4abaf904814e2d291/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/soloader-0.6.0.aar/812a70cfca0232b4abaf904814e2d291/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.clans:fab:1.6.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/fab-1.6.4.aar/e307c0de69c1c77e8fab96c886d88ed4/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.clans:fab:1.6.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/fab-1.6.4.aar/e307c0de69c1c77e8fab96c886d88ed4/AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.android.gms:play-services-vision-common-license:12.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-license-12.0.1.aar/7886d88953604cd47b0357933f399eab/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision-common-license:12.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-vision-common-license-12.0.1.aar/7886d88953604cd47b0357933f399eab/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/8f3bb2f9a8cf9ed4ecd48f3a9899a7d2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] /home/farhan/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/8f3bb2f9a8cf9ed4ecd48f3a9899a7d2/AndroidManifest.xml:5:5-7:41
+INJECTED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml
+uses-feature#android.hardware.camera
+ADDED from [:react-native-camera] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-camera/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:11:5-13:36
+	android:required
+		ADDED from [:react-native-camera] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-camera/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:9-33
+	android:name
+		ADDED from [:react-native-camera] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-camera/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:12:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from [:react-native-camera] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-camera/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [:react-native-camera] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-camera/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from [:react-native-camera] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-camera/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:15:9-57
+provider#com.imagepicker.FileProvider
+ADDED from [:react-native-image-picker] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [:react-native-image-picker] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:react-native-image-picker] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:14:13-60
+	android:exported
+		ADDED from [:react-native-image-picker] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:react-native-image-picker] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:13-56
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-image-picker] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:17:13-19:58
+	android:resource
+		ADDED from [:react-native-image-picker] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:19:17-55
+	android:name
+		ADDED from [:react-native-image-picker] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:18:17-67
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:react-native-firebase] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-firebase/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:12:5-68
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/b62777f7ee1450173871d7ccd874f349/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/b62777f7ee1450173871d7ccd874f349/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/4dc3576df65435147da472835cc9bedd/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/4dc3576df65435147da472835cc9bedd/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/c6a9c5cf6cc86369190b8308c13e0e0e/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/c6a9c5cf6cc86369190b8308c13e0e0e/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/78936079e9c9087314794db81c4a56ca/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/78936079e9c9087314794db81c4a56ca/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [:react-native-firebase] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-firebase/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:12:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:react-native-firebase] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-firebase/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/b62777f7ee1450173871d7ccd874f349/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/b62777f7ee1450173871d7ccd874f349/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/4dc3576df65435147da472835cc9bedd/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.6] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/4dc3576df65435147da472835cc9bedd/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/c6a9c5cf6cc86369190b8308c13e0e0e/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/c6a9c5cf6cc86369190b8308c13e0e0e/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/78936079e9c9087314794db81c4a56ca/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/78936079e9c9087314794db81c4a56ca/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [:react-native-firebase] /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/node_modules/react-native-firebase/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:13:22-76
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/d22a06610f1bab6bdd3e57d04275c858/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/d22a06610f1bab6bdd3e57d04275c858/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/d22a06610f1bab6bdd3e57d04275c858/AndroidManifest.xml:29:13-82
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/b62777f7ee1450173871d7ccd874f349/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/78936079e9c9087314794db81c4a56ca/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/78936079e9c9087314794db81c4a56ca/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/78936079e9c9087314794db81c4a56ca/AndroidManifest.xml:31:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/b62777f7ee1450173871d7ccd874f349/AndroidManifest.xml:27:18-89
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/b62777f7ee1450173871d7ccd874f349/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/b62777f7ee1450173871d7ccd874f349/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-17.0.4.aar/b62777f7ee1450173871d7ccd874f349/AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/4dc3576df65435147da472835cc9bedd/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/c6a9c5cf6cc86369190b8308c13e0e0e/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/c6a9c5cf6cc86369190b8308c13e0e0e/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/4dc3576df65435147da472835cc9bedd/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/4dc3576df65435147da472835cc9bedd/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/4dc3576df65435147da472835cc9bedd/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/4dc3576df65435147da472835cc9bedd/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/4dc3576df65435147da472835cc9bedd/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/4dc3576df65435147da472835cc9bedd/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/c6a9c5cf6cc86369190b8308c13e0e0e/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.2.4.aar/c6a9c5cf6cc86369190b8308c13e0e0e/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/4dc3576df65435147da472835cc9bedd/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/4dc3576df65435147da472835cc9bedd/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/4dc3576df65435147da472835cc9bedd/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/4dc3576df65435147da472835cc9bedd/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/4dc3576df65435147da472835cc9bedd/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/4dc3576df65435147da472835cc9bedd/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/4dc3576df65435147da472835cc9bedd/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/4dc3576df65435147da472835cc9bedd/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/4dc3576df65435147da472835cc9bedd/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/4dc3576df65435147da472835cc9bedd/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/4dc3576df65435147da472835cc9bedd/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/4dc3576df65435147da472835cc9bedd/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/4dc3576df65435147da472835cc9bedd/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/4dc3576df65435147da472835cc9bedd/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/4dc3576df65435147da472835cc9bedd/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.6] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.6.aar/4dc3576df65435147da472835cc9bedd/AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/78936079e9c9087314794db81c4a56ca/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/78936079e9c9087314794db81c4a56ca/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/78936079e9c9087314794db81c4a56ca/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/78936079e9c9087314794db81c4a56ca/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/78936079e9c9087314794db81c4a56ca/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/78936079e9c9087314794db81c4a56ca/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/78936079e9c9087314794db81c4a56ca/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/78936079e9c9087314794db81c4a56ca/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/78936079e9c9087314794db81c4a56ca/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/78936079e9c9087314794db81c4a56ca/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/78936079e9c9087314794db81c4a56ca/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/78936079e9c9087314794db81c4a56ca/AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/78936079e9c9087314794db81c4a56ca/AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/78936079e9c9087314794db81c4a56ca/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/78936079e9c9087314794db81c4a56ca/AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/78936079e9c9087314794db81c4a56ca/AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/78936079e9c9087314794db81c4a56ca/AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/78936079e9c9087314794db81c4a56ca/AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-iid-17.0.4.aar/78936079e9c9087314794db81c4a56ca/AndroidManifest.xml:54:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/0e48665db242b9271a1d5eb4a4fc49cf/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/0e48665db242b9271a1d5eb4a4fc49cf/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/0e48665db242b9271a1d5eb4a4fc49cf/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/0e48665db242b9271a1d5eb4a4fc49cf/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.3] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/1ac5e94d38207386cba41b7a2d99dc22/AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/1ac5e94d38207386cba41b7a2d99dc22/AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/1ac5e94d38207386cba41b7a2d99dc22/AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/1ac5e94d38207386cba41b7a2d99dc22/AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/1ac5e94d38207386cba41b7a2d99dc22/AndroidManifest.xml:11:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/e55be3505cd0e594e3a9fbbf48064955/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/e55be3505cd0e594e3a9fbbf48064955/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/e55be3505cd0e594e3a9fbbf48064955/AndroidManifest.xml:24:13-58
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/src/main/AndroidManifest.xml:1:1-60:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4

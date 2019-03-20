@@ -1,0 +1,37 @@
+{
+  "name": "myApp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "apsl-react-native-button": "^3.1.1",
+    "react": "16.6.3",
+    "react-native": "0.58.5",
+    "react-native-camera": "^1.12.0",
+    "react-native-card-view": "0.0.3",
+    "react-native-code-verification": "^1.0.7",
+    "react-native-firebase": "^5.2.2",
+    "react-native-image-picker": "^0.28.0",
+    "react-native-navigation": "^2.12.0",
+    "react-native-root-toast": "^3.0.2",
+    "react-native-timeline-listview": "^0.2.3",
+    "react-native-vector-icons": "^6.3.0",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "24.1.0",
+    "jest": "24.1.0",
+    "metro-react-native-babel-preset": "0.52.0",
+    "react-native-debugger-open": "^0.3.18",
+    "react-test-renderer": "16.6.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

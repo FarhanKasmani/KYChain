@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<title></title>
+	<style type="text/css">
+		.column {
+		  float: left;
+		  width: 50%;
+		}
+
+		/* Clear floats after the columns */
+		.row:after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
+		.button{
+
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #3299bb;/*ButtonColor*/
+    color: #FFF;
+    border-bottom: solid 4px #3299bb;
+    border-radius: 10px;
+    width: 250px;
+    height: 80px;
+    font-size: 1em;
+}
+.button:active {/*OnClick*/
+    -ms-transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*Move down*/
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*Reduce Shadow*/
+    border-bottom: none;
+		}
+.field{
+	width: :400px;
+	height: 30px;
+	border-radius: 5px;
+	margin-left: 20px;
+}
+.send{
+	height: 35px;
+	width: 80px;
+	border-radius: 5px;
+	background-color: grey;
+	color:white;
+
+}
+
+  .navbar {
+  overflow: hidden;
+  background-color: #3299bb;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: right;
+  overflow: hidden;
+  color: white;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #5ab9ea;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #3299bb;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #5ab9ea ;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+</style>
+
+</head>
+
+
+
+
+<body>
+
+<div class="navbar">
+  <a href="#">KYChain</a>
+  <div class="dropdown" style="float: right;">
+    <button id='language' class="dropbtn" style="margin-right: 75px">Language 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#googtrans(en|en)" data-lang="en" class="lang-es lang-select">English</a>
+      <a href="#googtrans(en|hi)" data-lang="hi" class="lang-es lang-select">हिंदी(Hindi)</a>
+      <a href="#googtrans(en|mr)" data-lang="mr" class="lang-es lang-select">मराठी(Marathi)</a>
+      <a href="#googtrans(en|bn)" data-lang="bn" class="lang-es lang-select">বাংলা(Bangla)</a>
+      <a href="#googtrans(en|kn)" data-lang="kn" class="lang-es lang-select">ಕನ್ನಡ(Kannad)</a>
+      <a href="#googtrans(en|ml)" data-lang="ml" class="lang-es lang-select">മല്യാലം(Malyalam)</a>
+      <a href="#googtrans(en|te)" data-lang="te" class="lang-es lang-select">തെലുങ്ക്(Telugu)</a>
+      <a href="#googtrans(en|ta)" data-lang="ta" class="lang-es lang-select">தமிழ்(Tamil)</a>
+      <a href="#googtrans(en|gu)" data-lang="gu" class="lang-es lang-select">ગુજરાતી(Gujarati)</a>
+      <a href="#googtrans(en|pa)" data-lang="pa" class="lang-es lang-select">ਪੰਜਾਬੀ(Punjabi)</a>
+      <a href="#googtrans(en|sd)" data-lang="sd" class="lang-es lang-select">سنڌي(Sindhi)</a>
+      <a href="#googtrans(en|ur)" data-lang="ur" class="lang-es lang-select">اردو(Urdu)</a>
+    </div>
+  </div>
+  
+</div>
+
+
+	<h1 style="text-align: center;">Upload Documents</h1>
+	<div class="row">
+	  <div class="column">
+	  	<div style="margin-left: 200px;">
+	  	<h2 style="margin-left: 20px;">Proof of Identity</h2>
+	  		<button class="button" id="aadhar" >Aadhar</button><br><br>
+			<div  id="ia"  hidden>
+					<input type="text" required class="field" id="a" placeholder="Enter Aadhar no" />
+					<button id="ba" class="send" onclick="others()">Send</button><br><br>
+			</div>
+			<button class="button" id="pan" >PAN</button><br><br>
+			<div  id="ip"  hidden>
+					<input type="text" required class="field" id="p" placeholder="Enter PAN no" />
+					<button id="ip" class="send" onclick="pan()">Send</button><br><br>
+			</div>
+			<button class="button" id="license">License</button><br><br>
+			<div  id="il"  hidden>
+					<input type="text" required class="field" id="l" placeholder="Enter License no" />
+					<button id="il" class="send" onclick="others()">Send</button><br><br>
+			</div>
+			<button class="button" id="voter">Voter Id</button><br><br>
+			<div  id="iv"  hidden>
+					<input type="text" required class="field" placeholder="Enter Voter ID no." />
+					<button id="iv" class="send" onclick="others()">Send</button><br><br>
+			</div>
+		</div>
+
+	  </div>
+	  <div class="column">
+	  	<div style="margin-left: 100px;">
+	  	<h2>Proof of Address</h2>
+	  	<button class="button" id="aadha">Aadhar</button><br><br>
+			<div  id="aa"  hidden>
+				<input type="text" required class="field" id="ias" placeholder="Enter Aadhar no." />
+				<button id="as" class="send" onclick="pan()">Send</button><br><br>
+			</div>
+			<button class="button" id="ebill">Electricity Bill</button><br><br>
+			<div  id="ea"  hidden>
+				<input type="text" required class="field" id="ies" placeholder="Enter Electricity Bill no." />
+				<button id="es" onclick="pan()" class="send">Send</button><br><br>
+			</div>
+			<div  id="otp"  hidden>
+			<input type="text" required class="field" id="ot" placeholder="Enter OTP" />
+				<button id="op" onclick="send()" class="send">Send</button><br><br>
+			</div>
+		</div>
+
+	  </div>
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT}, 'google_translate_element');
+  }
+
+function triggerHtmlEvent(element, eventName) {
+  var event;
+  if (document.createEvent) {
+  event = document.createEvent('HTMLEvents');
+  event.initEvent(eventName, true, true);
+  element.dispatchEvent(event);
+  } else {
+  event = document.createEventObject();
+  event.eventType = eventName;
+  element.fireEvent('on' + event.eventType, event);
+  }
+}
+
+$('.lang-select').click(function() {
+  var theLang = $(this).attr('data-lang');
+  
+  //alert($(this).attr('href'));
+  window.location = $(this).attr('href');
+  location.reload();
+
+});
+</script>
+
+
+<script type="text/javascript" src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+</script>
+<script>
+	var aadhar=document.getElementById('aadhar');
+
+$(document).ready(function(){
+  $("#aadhar").click(function(){
+    $("#ia").toggle();
+         
+  });
+  $("#pan").click(function(){
+    $("#ip").toggle();
+  });
+  $("#license").click(function(){
+    $("#il").toggle();
+  });
+   $("#voter").click(function(){
+    $("#iv").toggle();
+  });
+   $("#aadha").click(function(){
+    $("#aa").toggle();
+  });
+   $("#ebill").click(function(){
+    $("#ea").toggle();
+  });
+   $(".send").click(function(){
+      $("#otp").show();
+   })
+});
+
+function pan(){
+	var ebill=document.getElementById('ies').value;
+	var aadhar=document.getElementById('ias').value;
+	console.log(ebill);
+	if(ebill.length!=0 || aadhar.length!=0){
+		window.location="combo.html";
+	}
+	else{
+		alert("please enter proof of address");
+	}
+}
+function sendotp(otp,user,pas,aadhar){
+ $.ajax({
+      type: "POST",
+      dataType:'json',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      url: "http://172.16.1.181:8000/api/webAadhar/otpSend/",
+      data: JSON.stringify({ 
+        'email':user,
+        'password':pas,
+        'otp':otp,
+        'aadharNumber':aadhar
+      })
+      }).done(function(msg) {
+        console.log(msg);
+    });
+}
+function others(){
+	//console.log(sessionStorage.getItem("Token"));
+	var aadhar=document.getElementById('a').value;
+  user=sessionStorage.getItem("email");
+  pas=sessionStorage.getItem("password");
+  console.log("WHy u no work")
+    $.ajax({
+      type: "POST",
+      dataType:'json',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      url: "http://172.16.1.181:8000/api/webAadhar/checkAadhar/",
+      data: JSON.stringify({ 
+        'email':user,
+        'password':pas,
+        'aadharNumber':aadhar
+      })
+      }).done(function(msg) {
+        
+        console.log(msg);
+        if(!msg.data){
+          alert("Aadhar number incorrect");
+        }
+        else{
+          var digits = '0123456789'; 
+          let OTP = ''; 
+          for (let i = 0; i < 4; i++ ) { 
+              OTP += digits[Math.floor(Math.random() * 10)]; 
+          } 
+          console.log(OTP);
+            sessionStorage.setItem("OTP",OTP)
+            sessionStorage.setItem("doctype","aadhar");
+            sessionStorage.setItem("value",aadhar);
+            sendotp(OTP,user,pas,aadhar);
+
+        }
+    });
+
+	
+}
+ 	
+function send(){
+  OTP=sessionStorage.getItem("OTP");
+	aadhar=sessionStorage.getItem("value")
+	var otp=document.getElementById('ot').value;
+  if(otp==OTP){
+    window.location="face.html";
+  }
+else{
+  alert("Incorrect otp")
+}
+}
+
+</script>
+
+</body>
+
+</html>

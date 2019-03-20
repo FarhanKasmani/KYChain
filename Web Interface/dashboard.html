@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+   <head>
+      <title>KnockoutJS Checked Radio Button Binding</title>
+      <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
+         type = "text/javascript"></script>
+          <meta http-equiv="Content-Language" content="hi">
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+         <style>
+.collapsible {
+  background-color: #3399bb;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #3399bb;
+}
+
+.content {
+  padding: 0 18px;
+  display: block;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+  .navbar {
+  overflow: hidden;
+  background-color: #3299bb;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: right;
+  overflow: hidden;
+  color: white;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+/*.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #5ab9ea;
+}*/
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #3299bb;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #5ab9ea ;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+.card-group-item{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.thumb{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.card {
+  background: white;
+  text-decoration: none;
+  color: #444;
+  box-shadow: 0 20px 20px rgba(187, 130, 130, 0.1);
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  position: relative;
+  top: 0;
+  transition: all .1s ease-in;
+  border-radius: 20px;
+}
+.card:hover {
+  top: -20px;
+  box-shadow: 0 50px 50px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+}
+
+.card article {
+  padding: 20px;
+  flex: 1;  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card h1 {
+  font-size: 20px;
+  margin: 0;
+  color: #333;
+}
+.card p {
+  flex: 1;
+  line-height: 1.4;
+}
+.card span {
+  font-size: 12px;
+  font-weight: bold;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  margin: 2em 0 0 0;
+}
+
+.card .thumb {
+  padding-bottom: 60%;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+/*button*/
+.wrapper{
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+button{
+  font-family: 'Ubuntu', sans-serif;
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  width: 170px;
+  height: 40px;
+  line-height: 1;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border: 3px solid #3299bb;
+  background: #fff;
+  color: #3299bb;
+  border-radius: 40px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all .35s;
+}
+
+button:hover{
+  background: #3299bb;
+  color: #fff;
+
+}
+
+button span{
+  opacity: 1;
+  visibility: visible;
+  transition: all .35s;
+}
+
+.success{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  border-radius: 50%;
+  z-index: 1;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .35s;
+}
+
+.success svg{
+  width: 20px;
+  height: 20px;
+  fill: yellowgreen;
+  transform-origin: 50% 50%;
+  transform: translateY(-50%) rotate(0deg) scale(0);
+  transition: all .35s;
+}
+
+button.is_active{
+  width: 40px;
+  height: 40px;
+}
+
+button.is_active .success{
+  opacity: 1;
+  visibility: visible;
+}
+
+button.is_active .success svg{
+  margin-top: 50%;
+  transform: translateY(-50%) rotate(720deg) scale(1);
+}
+
+button.is_active span{
+  opacity: 0;
+  visibility: hidden;
+}
+
+
+      </style>
+   </head>
+
+   <body> 
+      
+<div class="navbar">
+  <a id='profile' href="pro.html">Profile</a>
+  <a id='timeline' href="timeline.html">Timeline</a>
+  <a id='dashboard' href="dashboard.html">Dashboard</a>
+  <a id='logout' href="login_test.html" style="float: right;">Logout</a> 
+  <div class="dropdown" style="float: right;">
+    <button id='language' class="dropbtn" >Language 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#googtrans(en|en)" data-lang="en" class="lang-es lang-select">English</a>
+      <a href="#googtrans(en|hi)" data-lang="hi" class="lang-es lang-select">हिंदी(Hindi)</a>
+      <a href="#googtrans(en|mr)" data-lang="mr" class="lang-es lang-select">मराठी(Marathi)</a>
+      <a href="#googtrans(en|bn)" data-lang="bn" class="lang-es lang-select">বাংলা(Bangla)</a>
+      <a href="#googtrans(en|kn)" data-lang="kn" class="lang-es lang-select">ಕನ್ನಡ(Kannad)</a>
+      <a href="#googtrans(en|ml)" data-lang="ml" class="lang-es lang-select">മല്യാലം(Malyalam)</a>
+      <a href="#googtrans(en|te)" data-lang="te" class="lang-es lang-select">തെലുങ്ക്(Telugu)</a>
+      <a href="#googtrans(en|ta)" data-lang="ta" class="lang-es lang-select">தமிழ்(Tamil)</a>
+      <a href="#googtrans(en|gu)" data-lang="gu" class="lang-es lang-select">ગુજરાતી(Gujarati)</a>
+      <a href="#googtrans(en|pa)" data-lang="pa" class="lang-es lang-select">ਪੰਜਾਬੀ(Punjabi)</a>
+      <a href="#googtrans(en|sd)" data-lang="sd" class="lang-es lang-select">سنڌي(Sindhi)</a>
+      <a href="#googtrans(en|ur)" data-lang="ur" class="lang-es lang-select">اردو(Urdu)</a>
+    </div>
+  </div>
+</div>  
+<br> <br>
+<br> <br> 
+
+<div class="row">
+<div class="col-3">
+  
+    <div class="card">
+
+
+        <article class="card-group-item">
+
+          <header class="card-header">
+            <h6 class="title">Categories </h6>
+          </header>
+
+          <div  class="card-body">
+            <form >
+              <label class="form-check">
+                <input class="form-check-input" type="checkbox" value="">
+                <span class="form-check-label">
+                  All
+                </span>
+              </label> <!-- form-check.// --><br>
+              <label class="form-check">
+                <input class="form-check-input" type="checkbox" value="">
+                <span class="form-check-label">
+                  Requested
+                </span>
+              </label>  <!-- form-check.// --><br>
+              <label class="form-check">
+                <input class="form-check-input" type="checkbox" value="">
+                <span class="form-check-label">
+                  Granted/Revoked
+                </span>
+              </label>  <!-- form-check.// -->
+            </form>
+          </div> <!-- card-body.// -->
+
+        </article> <!-- card-group-item.// -->
+
+        
+
+
+
+        <article class="card-group-item">
+          <header class="card-header">
+            <h6 class="title">Choose type </h6>
+          </header>
+          <div class="card-body">
+            <label class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadio" value="">
+              <span class="form-check-label">
+                First hand items
+              </span>
+            </label><br><br>
+            <label class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadio" value="">
+              <span class="form-check-label">
+                Brand new items
+              </span>
+            </label><br><br>
+            <label class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadio" value="">
+              <span class="form-check-label">
+                Some other option
+              </span>
+            </label>
+          </div> <!-- card-body.// -->
+        </article> <!-- card-group-item.// -->
+
+
+      </div> <!-- card.// -->
+      
+
+
+
+</div>
+
+
+
+<div class="printcard1"></div>
+<div class="printcard2"></div>
+<div class="printcard3"></div>
+   <!-- <div class="col-3">
+      
+         <div class="card">
+               <div class="thumb" style="background-image: url();"></div>
+          <article>
+          <h1>Select an option type for: <span> PayTm</span> </h1>
+            <p><div>  arr
+                     <p> Select an option type for: <span>Name</span></p>
+                  <div><input type = "radio"  name="permission" value="True"/> Grant</div>
+         
+                  <div><input type = "radio" 
+                     name="permission" value="False" /> Revoke</div>
+         
+                  </div></p>
+                  <button class="Paytm">Submit</button>
+         </div>
+      </article>
+<br><br>
+      
+   </div>
+ -->
+
+   <!-- <div class="col-4">
+      <div data-bind="foreach : ar1">
+         <button class="collapsible">
+          Select an option type for: <span data-bind="text : na"></span></button>
+            <div class="content">
+            <div data-bind="foreach : arr1">
+               <p> Select an option type for: <span data-bind="text : nam"></span></p>
+                  <div><input type = "radio"  
+                     data-bind = "checked: checkGender ,attr:{name : nam , value : v1}" /> Grant</div>
+         
+                  <div><input type = "radio" 
+                     data-bind = "checked: checkGender ,attr:{name : nam , value : v2}" /> Revoke</div>
+         
+                  <div><p>You have selected: <span 
+                  data-bind = "text:checkGender "></span></p></div>
+            </div>
+         </div> 
+<br><br>
+      </div>
+   </div>
+ -->
+
+
+
+
+</div>
+
+      
+<!--  Script begins here   -->
+ 
+<script type = "text/javascript">
+         var json1={};
+
+$.ajax({
+      type: "POST",
+      cors:true,
+      dataType:'json',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      crossDomain:true,
+      url: "http://172.16.1.181:8000/api/webAadhar/view/",
+      data: JSON.stringify({ 
+        email:sessionStorage.getItem("email"),
+        password:sessionStorage.getItem("password"),
+        //aadharNumber:sessionStorage.getItem("uid")
+      })
+      }).done(function(msg) {
+        console.log("hi")
+        console.log(msg)
+
+json1=msg;
+var k=0;
+var  attri={ "name" : "0"  ,  "dob" :"1"  , "address" : "2" ,  "phone" : "3" ,  "gender" : "4"};
+for (i in json1){
+  var html="";
+html+='<div class="col-3">';
+
+
+
+  //console.log(i);
+  html+='<div class="card">';
+  html+='<div class="thumb" style="background-image: url(https://www.india.com/wp-content/uploads/2016/12/paytm-1.jpg);"></div>';
+  html+='<article style="font-family:sans-serif; color:black; font-size:18px"><h1> <span style="color:black; font-size:20px; font-family:sans-serif"> '+i+'</span> </h1>';
+  //html+='<p>'
+  var j=0;
+  for (a in json1[i].data){
+  var b="";
+  var c="";
+    console.log(json1[i].key , a);
+if(json1[i].data[a] == "True"){
+  b="checked";
+  c="";
+}
+else{
+c="checked";
+b="";
+
+}
+    html+='<div><p style="font-family:sans-serif"> Select an option type for: <span style="color:black; font-size:16px; font-family:sans-serif">'+a+'</span></p>';
+    html+='<span style="color:black; font-size:16px; font-family:sans-serif"><input type = "radio" class="myRadios" name="'+json1[i].key+attri[a]+'" value="True"'+b+'/> Grant';
+    html+='<input type = "radio"  class="myRadios" name="'+json1[i].key+attri[a]+'" value="False"'+c+'/> Revoke</span></div>';
+     j++; 
+    }
+
+    html+='</p>'+
+    // '<button name="'+i+'">'+
+    // 'Submit'+
+    // '<div class="success">'+
+    // '<svg xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 29.756 29.756" style="enable-background:new 0 0 29.756 29.756;" xml:space="preserve">'+
+    //   '<path d="M29.049,5.009L28.19,4.151c-0.943-0.945-2.488-0.945-3.434,0L10.172,18.737l-5.175-5.173   c-0.943-0.944-2.489-0.944-3.432,0.001l-0.858,0.857c-0.943,0.944-0.943,2.489,0,3.433l7.744,7.752   c0.944,0.943,2.489,0.943,3.433,0L29.049,8.442C29.991,7.498,29.991,5.953,29.049,5.009z"></path></svg></div></button>'+
+      '</article><br><br></div>';
+     if(k%3==0){
+       $('.printcard1').append(html);
+    }
+         else if(k%3==1){
+     $('.printcard2').append(html);
+     }
+     else{
+       var html1 = '<div class="col-3"> </div>' +html;
+      html=html1;
+        $('.printcard3').append(html);
+     }
+ k++;
+//$('#printcard3').append(html);
+//     
+html+='</div>'
+  }
+   
+   
+  
+$("button").click(function() {
+
+    console.log(this.name); // or alert($(this).attr('id'));
+    var  attri={"0" : "name" , "1" : "dob" , "2" :"address" , "3" : "phone" ,"4" : "gender"};
+    var grant=[];
+    var revoke=[];
+
+    for(i=0;i<4;i++){
+
+        var rvalue = $("input[name='"+this.name+i+"']:checked").val();
+        if(rvalue=="True"){
+          grant.push(attri[i]);
+        }
+        else{
+          revoke.push(attri[i]);
+        }
+
+    }
+    console.log(revoke);
+  });
+  
+  var rad=document.getElementsByClassName("myRadios");
+  var prev=null;
+  for (var l=0; l< rad.length;l++){
+
+    rad[l].addEventListener("change",function(){
+      // prev ? console.log(prev.value) :null;
+      // if (this!== prev)
+      // {
+      //     prev=this;
+      // }
+      console.log(this.value);
+      var index=this.name[this.name.length-1];
+      var key=this.name.slice(0,this.name.length-1);
+      console.log(index,key);
+      var value="";
+      if (this.value=="True"){
+        value="grant";
+      }
+      else{
+        value="revoke";
+      }
+
+      console.log(index,key,value);
+       var  attri={"0" : "name" , "1" : "dob" , "2" :"address" , "3" : "phone" ,"4" : "gender"};//["name","address","phone","dateofbirth"]
+   
+      $.ajax({
+      type: "POST",
+      cors:true,
+      dataType:'json',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      crossDomain:true,
+      url: "http://172.16.1.181:8000/api/webAadhar/action/",
+      data: JSON.stringify({
+        key:key,
+        attribute:attri[index.toString()],
+        action:value, 
+        email:sessionStorage.getItem("email"),
+        password:sessionStorage.getItem("password"),
+        //aadharNumber:sessionStorage.getItem("uid")
+      })
+      }).done(function(msg) {
+        console.log("hi")
+        console.log(msg)
+      })
+
+     });
+  }
+
+})
+
+
+
+json1={
+  "Paytm":{
+      
+      "data":{
+        "name":"True",
+        "address":"True",
+        "phone":"False",
+        "dateOfbirth":"False"
+      },
+      
+      "key":"abc123"
+  },
+  "hdfc":{
+      
+      "data":{
+        "name":"True",
+        "address":"True",
+        "phone":"True",
+        "dateOfbirth":"False"
+      },
+      
+      "key":"abc223"
+  },
+  "hsbc":{
+      
+      "data":{
+        "name":"False",
+        "address":"False",
+        "phone":"False",
+        "dateOfbirth":"False"
+      },
+      
+      "key":"abc223"
+  },
+  "SVKM":{
+      
+      "data":{
+        "name":"True",
+        "address":"True",
+        "phone":"False",
+        "dateOfbirth":"False"
+      },
+      
+      "key":"abc123"
+  }
+  
+
+};
+
+
+</script>
+
+<script>
+  
+function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT}, 'google_translate_element');
+  }
+
+function triggerHtmlEvent(element, eventName) {
+  var event;
+  if (document.createEvent) {
+  event = document.createEvent('HTMLEvents');
+  event.initEvent(eventName, true, true);
+  element.dispatchEvent(event);
+  } else {
+  event = document.createEventObject();
+  event.eventType = eventName;
+  element.fireEvent('on' + event.eventType, event);
+  }
+}
+
+$('.lang-select').click(function() {
+  var theLang = $(this).attr('data-lang');
+  
+  //alert($(this).attr('href'));
+  window.location = $(this).attr('href');
+  location.reload();
+
+});
+
+
+</script>
+<script type="text/javascript" src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+</script>
+      
+   </body>
+</html>

@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	
+	<title></title>
+  <meta http-equiv="Content-Language" content="hi">
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+	<style type="text/css">
+		
+		*{
+			font-family: sans-serif;
+		}
+
+		th{
+			text-align: left;
+
+		}
+		td{
+			padding-left: 15px;
+			text-align: left;
+		}
+
+		#firstrow{
+			line-height: 300px;
+		}
+
+
+
+		.tab {
+  overflow: hidden;
+  border: 1px solid #fff;
+  background-color: #c8e3f5;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #3299bb;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #3299bb;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #fff;
+  border-top: none;
+}
+
+ .navbar {
+  overflow: hidden;
+  background-color: #3299bb;
+  font-family: Arial;
+  position: fixed;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+  float: right;
+  overflow: hidden;
+  color: white;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+/*.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #5ab9ea;
+}*/
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #3299bb;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #5ab9ea ;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a id='profile' href="pro.html">Profile</a>
+  <a id='timeline' href="timeline.html">Timeline</a>
+  <a id='dashboard' href="dashboard.html">Dashboard</a>
+  <a id='logout' href="login_test.html" style="float: right;">Logout</a> 
+  <a id='logout' href="login_test.html" style="float: right;">Logout</a>
+  <div class="dropdown" style="float: right;">
+    <button id='language' class="dropbtn" >Language 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#googtrans(en|en)" data-lang="en" class="lang-es lang-select">English</a>
+      <a href="#googtrans(en|hi)" data-lang="hi" class="lang-es lang-select">हिंदी(Hindi)</a>
+      <a href="#googtrans(en|mr)" data-lang="mr" class="lang-es lang-select">मराठी(Marathi)</a>
+      <a href="#googtrans(en|bn)" data-lang="bn" class="lang-es lang-select">বাংলা(Bangla)</a>
+      <a href="#googtrans(en|kn)" data-lang="kn" class="lang-es lang-select">ಕನ್ನಡ(Kannad)</a>
+      <a href="#googtrans(en|ml)" data-lang="ml" class="lang-es lang-select">മല്യാലം(Malyalam)</a>
+      <a href="#googtrans(en|te)" data-lang="te" class="lang-es lang-select">തെലുങ്ക്(Telugu)</a>
+      <a href="#googtrans(en|ta)" data-lang="ta" class="lang-es lang-select">தமிழ்(Tamil)</a>
+      <a href="#googtrans(en|gu)" data-lang="gu" class="lang-es lang-select">ગુજરાતી(Gujarati)</a>
+      <a href="#googtrans(en|pa)" data-lang="pa" class="lang-es lang-select">ਪੰਜਾਬੀ(Punjabi)</a>
+      <a href="#googtrans(en|sd)" data-lang="sd" class="lang-es lang-select">سنڌي(Sindhi)</a>
+      <a href="#googtrans(en|ur)" data-lang="ur" class="lang-es lang-select">اردو(Urdu)</a>
+    </div>
+  </div>
+</div>  
+
+
+<br><br>
+
+
+<!-- <div class="container">
+  <div class="row justify-content-md-center">
+    <div class="col-4"> -->
+      <div class="row">
+        <div class="col-1"></div>
+        <div class="col-3">
+          <img height="250px" width="250px" src="grass.jpg">
+        </div>
+
+        <div class="col-8">
+            <div class="row" style="font-family: Helvetica; color: #3299bb; font-size: 50px; font-style: bold" id='user'></div>
+            <div class="row" style="font-family: Helvetica; color: #3299bb; font-size: 25px;">KYC completed</div>
+            <div class="row" style="font-family: Helvetica; color: #3299bb; font-size: 25px;" id="uid">
+              <label>User ID</label>
+            </div>
+
+
+            <div style="margin-top:100px; border-radius:5px;" class="tab">
+            <button class="tablinks active" onclick="openCity(event, 'about')">About</button>
+            <button class="tablinks" onclick="openCity(event, 'notifications')">Notifications</button>
+            </div>
+
+
+<!-- Tab content -->
+            <div style="display: block;" id="about" class="tabcontent">
+
+
+
+                        <table>
+                          <tr>
+                            <th>Name:</th>
+                            <td id="name"></td> 
+                            
+                          </tr>
+                          <tr>
+                            <th>Date of Birth:</th>
+                            <td id="dob"></td> 
+                            
+                          </tr>
+                          <tr>
+                            <th>Gender:</th>
+                            <td id="gender"></td> 
+                            
+                          </tr>
+                          <tr>
+                            <th>Contact:</th>
+                            <td id="contact"></td> 
+                            
+                          </tr>
+                          <tr>
+                            <th>Address:</th>
+                            <td id="address"></td> 
+                            
+                          </tr>
+                          
+
+                        </table>
+              </div>
+
+                        <div id="notifications" class="tabcontent">
+                          <h3>Pending KYCs</h3>
+                          
+                          <div id='pendingkycs'>
+
+
+                          </div>
+
+                        </div>
+
+
+                        </div>
+
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+
+
+  function checkaadhar(aadhar){
+    console.log("aadhar func")
+    user=sessionStorage.getItem("email");
+    pas=sessionStorage.getItem("password");
+
+      $.ajax({
+      type: "POST",
+      cors:true,
+      dataType:'json',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      crossDomain:true,
+      url: "http://172.16.1.181:8000/api/webAadhar/checkAadhar/",
+      data: JSON.stringify({ 
+        email:user,
+        password:pas,
+        aadharNumber:aadhar
+      })
+      }).done(function(msg) {
+        console.log("hi")
+        console.log(msg)
+        a=[msg.data.name]
+        a.push(msg.data.dob)
+        a.push(msg.data.gender)
+        a.push(msg.data.phone)
+        a.push(msg.data.address)
+    console.log(a)
+    document.getElementById('name').innerHTML=a[0];
+    document.getElementById('dob').innerHTML=a[1];
+    document.getElementById('gender').innerHTML=a[2];
+    document.getElementById('contact').innerHTML=a[3];
+    document.getElementById('address').innerHTML=a[4];
+    document.getElementById('uid').innerHTML=sessionStorage.getItem("uid");
+    document.getElementById('user').innerHTML=a[0];
+        });
+  }
+
+$(document).ready(function(){
+      console.log("profile called")
+    doctype=sessionStorage.getItem("doctype");
+    value=sessionStorage.getItem("value");
+    if (doctype=="aadhar"){
+    a=checkaadhar(value)
+
+  }
+ })
+
+
+
+
+	function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+
+ function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT}, 'google_translate_element');
+  }
+
+function triggerHtmlEvent(element, eventName) {
+  var event;
+  if (document.createEvent) {
+  event = document.createEvent('HTMLEvents');
+  event.initEvent(eventName, true, true);
+  element.dispatchEvent(event);
+  } else {
+  event = document.createEventObject();
+  event.eventType = eventName;
+  element.fireEvent('on' + event.eventType, event);
+  }
+}
+
+$('.lang-select').click(function() {
+  var theLang = $(this).attr('data-lang');
+  
+  //alert($(this).attr('href'));
+  window.location = $(this).attr('href');
+  location.reload();
+
+});
+
+
+</script>
+<script type="text/javascript" src="http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+</script>
+
+
+
+</body>
+</html>

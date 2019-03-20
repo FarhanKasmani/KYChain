@@ -1,0 +1,213 @@
+<html><head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title></title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+  <!-- <script type="text/javascript" src="/js/lib/dummy.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+ -->
+
+  <style id="compiled-css" type="text/css">
+      * {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: right;
+  padding: 15px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.b{
+
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #3299bb;/*ButtonColor*/
+    color: #FFF;
+    border-bottom: solid 4px #3299bb;
+    border-radius: 10px;
+    width: 250px;
+    height: 80px;
+    font-size: 1em;
+
+}
+.b:active {/*OnClick*/
+    -ms-transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);/*Move down*/
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);/*Reduce Shadow*/
+    border-bottom: none;
+    }
+
+  </style>
+
+
+  <!-- TODO: Missing CoffeeScript 2 -->
+  <!-- <script src="https://www.gstatic.com/firebasejs/5.8.5/firebase.js"></script>
+
+ -->
+  <script type="text/javascript">
+  //   var config = {
+  //   apiKey: "AIzaSyCu-6ZXYhi6LwyVcrMGKRdFmlnhbVcmvZY",
+  //   authDomain: "fbpictures-ec738.firebaseapp.com",
+  //   databaseURL: "https://fbpictures-ec738.firebaseio.com",
+  //   projectId: "fbpictures-ec738",
+  //   storageBucket: "fbpictures-ec738.appspot.com",
+  //   messagingSenderId: "648147664516"
+  // };
+  
+
+window.onload=function(){
+      
+const vid = document.querySelector('video');
+navigator.mediaDevices.getUserMedia({video: true}) // request cam
+.then(stream => {
+  vid.srcObject = stream; // don't use createObjectURL(MediaStream)
+  return vid.play(); // returns a Promise
+})
+.then(()=>{ // enable the button
+  const btn = document.querySelector('button');
+  btn.disabled = false;
+  btn.onclick = e => {
+    takeASnap()
+    .then(download);
+  };
+});
+
+function takeASnap(){
+  console.log("Hello")
+  const canvas = document.createElement('canvas'); // create a canvas
+  const ctx = canvas.getContext('2d'); // get its context
+  canvas.width = vid.videoWidth; // set its size to the one of the video
+  canvas.height = vid.videoHeight;
+  ctx.drawImage(vid, 0,0); // the video
+  return new Promise((res, rej)=>{
+    canvas.toBlob(res, 'image/jpeg'); // request a Blob from the canvas
+  });
+}
+function download(blob){
+
+  // uses the <a download> to download a Blob
+  let a = document.createElement('a'); 
+  a.href = URL.createObjectURL(blob);
+  // console.log(blob);
+  // console.log(a);
+  // console.log(a.href);
+  data={
+    'uri':a.href,
+    'type':'image/jpeg',
+    'name':'dnwkjfhfqej.jpg'
+  }
+   const vid = document.querySelector('video');
+   vid.pause();
+
+  user=sessionStorage.getItem("email");
+  pas=sessionStorage.getItem("password");
+  aadhar=sessionStorage.getItem("value");
+  console.log("hdhdh")
+  var fd = new FormData();
+   fd.append('original', blob);
+   fd.append('email',user)
+  fd.append('password',pas)
+  fd.append('aadharNumber',aadhar)
+
+
+//   var xhttp = new XMLHttpRequest();
+// xhttp.onreadystatechange = function() {
+//     if (this.readyState == 4 && this.status == 200) {
+//        // Typical action to be performed when the document is ready:
+//        //document.getElementById("demo").innerHTML = xhttp.responseText;
+//        console.log(xhttp.responseText);
+//     }
+// };
+// xhttp.open("POST", "http://172.16.1.181:8000/api/webAadhar/faceVerify/", true);
+// xhttp.send();
+
+return new Promise(function (resolve, reject) {
+      
+$.ajax({
+      type: "POST",
+      contentType: false,
+      processData: false,
+      url: "http://172.16.1.181:8000/api/webAadhar/faceVerify/",
+      data: fd,
+      }).done(function(msg) {
+        console.log(msg);
+        if(msg.success){
+          sessionStorage.setItem("uid",msg.uid)
+          window.location="pro.html";
+        }
+        else{
+          alert("Face not matched.Please try again!")
+          window.location="face.html"
+        }
+    });
+  });
+}
+}
+    
+
+</script>
+
+</head>
+<body>
+  <div class="row">
+  <div class="col-4"></div>
+    <div class="col-4"><video></video></div>
+    <div class="col-4"></div>
+</div>
+<div class="row">
+  <div class="col-6"></div>
+    <div class="col-1">
+    <button class="b">
+    take a snapshot</button></div>
+        <div class="col-5"></div>
+</div>
+
+
+
+  
+  <script>
+    // tell the embed parent frame the height of the content
+    if (window.parent && window.parent.parent){
+      window.parent.parent.postMessage(["resultsFrame", {
+        height: document.body.getBoundingClientRect().height,
+        slug: "pnrew67t"
+      }], "*")
+    }
+
+    // always overwrite window.name, in case users try to set it manually
+    window.name = "result"
+  </script>
+
+
+</body></html>
