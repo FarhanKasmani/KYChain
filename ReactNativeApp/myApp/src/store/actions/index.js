@@ -7,6 +7,6 @@ export { uiStartLoading, uiStopLoading, screenStartLoading, screenStopLoading } 
 export { viewPermissions, changePermission, setRequestingCompanyDetails } from './grantrevoke';
 export { postIssue, viewIssues } from './cxteam';
 
-const domainName = '172.16.1.181:8000';
+const domainName = '192.168.0.107:8000';
 const blockChainDomain = '192.168.43.134:3000';
 export { domainName, blockChainDomain };

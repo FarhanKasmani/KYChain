@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml",
+            "outputFile": "/home/farhan/Documents/My-Projects/To be checked/SIH - 2019/ReactNativeApp/myApp/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pt-rBR/values-pt-rBR.xml",
             "map": [
                 {
                     "source": "/home/farhan/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/d22a06610f1bab6bdd3e57d04275c858/res/values-pt-rBR/values.xml",

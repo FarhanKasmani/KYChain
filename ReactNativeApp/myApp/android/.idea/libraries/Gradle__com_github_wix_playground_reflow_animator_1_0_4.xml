@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.wix-playground:reflow-animator-1.0.4">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/reflow-animator-1.0.4.aar/ca330175fc8d868e8f44dbce51afaa09/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/reflow-animator-1.0.4.aar/ca330175fc8d868e8f44dbce51afaa09/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.wix-playground/reflow-animator/1.0.4/b582af08186f279c0b3d637edbd2cd2c452f44af/reflow-animator-1.0.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

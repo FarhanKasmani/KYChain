@@ -1,4 +1,4 @@
-#Sun Mar 03 02:28:33 IST 2019
-base.0=/home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/build/intermediates/transforms/dexMerger/debug/0
+#Tue Mar 17 00:09:28 IST 2020
+base.0=/home/farhan/Documents/My-Projects/To be checked/SIH - 2019/ReactNativeApp/myApp/android/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

@@ -2162,16 +2162,16 @@
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
-    <string name="default_web_client_id" translatable="false">696360576614-3t6tmksgn01l82vt56phbissul3iebtn.apps.googleusercontent.com</string>
+    <string name="default_web_client_id" translatable="false">563528158124-lde5945o7t0i22jpahqricq5m08aatn5.apps.googleusercontent.com</string>
     <string name="drawer_close">Drawer Close</string>
     <string name="drawer_open">Drawer Open</string>
     <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
-    <string name="firebase_database_url" translatable="false">https://certificate-verification-faecb.firebaseio.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">696360576614</string>
-    <string name="google_api_key" translatable="false">AIzaSyCJ6A0nNeH2GvouevR5e79XcbMJI73IhN0</string>
-    <string name="google_app_id" translatable="false">1:696360576614:android:1d998300551a0981</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCJ6A0nNeH2GvouevR5e79XcbMJI73IhN0</string>
-    <string name="google_storage_bucket" translatable="false">certificate-verification-faecb.appspot.com</string>
+    <string name="firebase_database_url" translatable="false">https://myproject956.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">563528158124</string>
+    <string name="google_api_key" translatable="false">AIzaSyA6Gyzr6XCeAstluXmbrNs_8AGmPJxADys</string>
+    <string name="google_app_id" translatable="false">1:563528158124:android:1d998300551a0981</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA6Gyzr6XCeAstluXmbrNs_8AGmPJxADys</string>
+    <string name="google_storage_bucket" translatable="false">myproject956.appspot.com</string>
     <string name="image_button_description" translatable="false">Button, Image</string>
     <string name="image_description" translatable="false">Image</string>
     <string name="link_description" translatable="false">Link</string>
@@ -2180,7 +2180,7 @@
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
-    <string name="project_id" translatable="false">certificate-verification-faecb</string>
+    <string name="project_id" translatable="false">myproject956</string>
     <string name="search_description" translatable="false">Search Field</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>

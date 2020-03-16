@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/farhan/Documents/REP/SIH-2019/SIH-Django/myApp/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sk/values-sk.xml",
+            "outputFile": "/home/farhan/Documents/My-Projects/To be checked/SIH - 2019/ReactNativeApp/myApp/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sk/values-sk.xml",
             "map": [
                 {
                     "source": "/home/farhan/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/0e48665db242b9271a1d5eb4a4fc49cf/res/values-sk/values.xml",
