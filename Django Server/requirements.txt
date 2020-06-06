@@ -2,7 +2,7 @@ boto3==1.9.96
 botocore==1.12.96
 certifi==2018.11.29
 chardet==3.0.4
-Django==2.1.5
+Django==2.2.13
 django-filter==2.1.0
 django-multiselectfield==0.1.8
 django-otp==0.5.2
