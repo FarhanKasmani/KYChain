@@ -6,7 +6,7 @@ Django==2.1.5
 django-filter==2.1.0
 django-multiselectfield==0.1.8
 django-otp==0.5.2
-djangorestframework==3.9.1
+djangorestframework==3.11.2
 djangorestframework-jwt==1.11.0
 docutils==0.14
 idna==2.8
